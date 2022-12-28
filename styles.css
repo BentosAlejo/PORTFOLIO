@@ -268,6 +268,7 @@ html{
     right: -15px;
     font-size: -14px;
 }
+/* these classes will be added dynamically by javascript */
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -276,3 +277,169 @@ html{
     0%{width:0%;}
     100%{width:20%;}
 }
+
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss {
+    0%{width:0%;}
+    100%{width:30%;}
+}
+
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react {
+    0%{width:0%;}
+    100%{width:10%;}
+}
+.skills .skill .hardwork{
+    width: 0%;
+    animation: 2s hardwork forwards;
+}
+@keyframes hardwork {
+    0%{width:0%;}
+    100%{width:60%;}
+}
+.skills .skill .teamwork{
+    width: 0%;
+    animation: 2s teamwork forwards;
+}
+@keyframes teamwork {
+    0%{width:0%;}
+    100%{width:80%;}
+}
+.skills .skill .proyect{
+    width: 0%;
+    animation: 2s proyect forwards;
+}
+@keyframes proyect {
+    0%{width:0%;}
+    100%{width:1%;}
+}
+.skills .skill .comunication{
+    width: 0%;
+    animation: 2s comunication forwards;
+}
+@keyframes comunication {
+    0%{width:0%;}
+    100%{width:85%;}
+}
+.skills .skill .creativity{
+    width: 0%;
+    animation: 2s creativity forwards;
+}
+@keyframes creativity {
+    0%{width:0%;}
+    100%{width:35%;}
+}
+/* section curriculum */
+
+.cv{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+
+}
+.cv .section-content{
+    max-width: 1100px;
+    margin: auto;
+}
+.cv h2{
+    font-size: 40px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.cv .row{
+    display: flex;
+    justify-content: space-between;
+}
+.cv .row .col{
+    width: 49%;
+    padding: 0 20px;
+}
+.cv .row .col h4{
+    font-size: 20px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.cv .row .left{
+    border-right: 2px solid #252A2E;
+}
+.cv .row .right{
+    border-left: 2px solid #252A2E;
+}
+.cv .row .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.cv .row .item h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cv .row .item .house{
+    color: #1CB698;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.cv .row .item .date{
+    display: block;
+    color: #1CB698;
+    margin-bottom: 10px;
+}
+.cv .row .item p{
+    line-height: 24px;
+}
+.cv .row .left{
+    border-right: 2px solid #1CB698;
+    margin-right: 20px;
+}
+.cv .row .right{
+    border-left: 2px solid #1CB698;
+    margin-left: 20px;
+}
+.cv .row .item .conect1{
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.cv .row .item .conect1 .circle1{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.cv .row .item .conect2{
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.cv .row .item .conect2 .circle2{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
