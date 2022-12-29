@@ -649,6 +649,49 @@ footer .up{
     }
     nav.responsive ul li{
         border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:700px){
+    .aboutme .row{
+        display: block;
+    }
+    .aboutme .row .col{
+        width: fit-content;
+    }
+    .skills .row{
+        display: block;
+    }
+    .skills .row .col{
+        width: 100%;
+    }
+    .skills .row .col .skillbar{
+        width: 100%;
+    }
+    .cv .row{
+        display: block;
+    }
+    .cv .row .col{
+        width: 90%;
+    }
+    .cv .row .right{
+        margin-left: 20px;
+    }
+    .portfolio .galery{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .galery .proyect{
+        max-width: 100%;
+    }
+    .portfolio .galery .proyect img{
+        width: 100%;
+    }
+    .contact .row{
+        display: block;
+    }
+    .contact .row .col{
+        width: 100%;
     }
 }
 
