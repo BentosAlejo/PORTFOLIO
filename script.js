@@ -4,6 +4,17 @@ const menu = document.getElementById("menu1")
 const select = document.getElementsByClassName("select")
 const testt = document.getElementById("test")
 const selected = Array.from(select)
+const download = document.getElementById("aCv")
+const send =document.getElementById("sendForm")
+const Swal = require('sweetalert2')
+
+
+download.onclick = function(){
+    window.open("./media/curriculum2022.pdf")
+}
+send.addEventListener("click", ()=>{
+    Swal.fire('Any fool can use a computer')
+})
 
 
 menu.addEventListener("click", () => {
@@ -25,8 +36,8 @@ selected.forEach(e =>
 )
 
 const skillsEffect = ()=>{
-    let skill = document.getElementById("skills")
-    let skillsDistance = window.innerHeight = skill.getBoundingClientRect().top
+    var skill = document.getElementById("skills")
+    var skillsDistance = window.innerHeight - skill.getBoundingClientRect().top
     if(skillsDistance >= 300){
         let skills = document.getElementsByClassName("progress")
         skills[0].classList.add("javascript")

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="styles.css" rel="stylesheet">
-    <script defer src="script.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -90,7 +89,7 @@
                     <h3>Personal Interest</h3>
                     <div class="interest-container">
                         <div class="interests">
-                            <i class="fa-sharp fa-solid fa-game-console-handheld"></i>
+                            <i class="fa-solid fa-gamepad-modern"></i>
                             <span>GAMES</span>
                         </div>
                         <div class="interests">
@@ -118,10 +117,10 @@
                 </div>
                 
             </div>  
-            <button>
+            <a type="submit" id="aCv">
                 Download CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
-            </button> 
+            </a> 
         </div>
     </section>
     <!-- skills section -->
@@ -334,7 +333,7 @@
                     <input type="text" placeholder="Email adress">
                     <input type="text" placeholder="Subject">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button>
+                    <button id="sendForm" type="reset">
                         Send Message<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
@@ -375,5 +374,7 @@
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
+    <script defer src="script.js"></script>
+    <script src="sweetalert2.all.min.js"></script>
 </body>
 </html>
