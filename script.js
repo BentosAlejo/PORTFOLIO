@@ -6,16 +6,73 @@ const testt = document.getElementById("test")
 const selected = Array.from(select)
 const download = document.getElementById("aCv")
 const send =document.getElementById("sendForm")
-const Swal = require('sweetalert2')
+const name = document.getElementById("nameIn")
+const phone = document.getElementById("phoneIn")
+const mail = document.getElementById("mailIn")
+const subject = document.getElementById("subjectIn")
+const text = document.getElementById("textIn")
+const form = document.getElementById("formContact")
 
 
 download.onclick = function(){
     window.open("./media/curriculum2022.pdf")
 }
-send.addEventListener("click", ()=>{
-    Swal.fire('Any fool can use a computer')
-})
+ function isValidProduct(){
+     if(
+       !name.value ||
+       !phone.value ||
+       !mail.value ||
+       !subject.value || 
+       !text.value 
+     ) return false
+     return true;
+   }
 
+// function formReset(){
+//     form.reset()
+// }   
+send.addEventListener("click", (e)=>{
+    if(isValidProduct()){
+        Swal.fire({
+            text:'Submitted successfully',
+            icon:'success',
+            confirmButtonText:'continue'
+
+        })
+        
+    }else{
+        e.preventDefault()
+        Swal.fire({
+            text:'Fields missing',
+            icon:'error',
+            confirmButtonText:'continue'
+
+        })
+    }
+})
+    
+// e.preventDefault()
+//     if(
+//         name.value = "" ||
+//         phone.value = "" ||
+//         mail.value = "" ||
+//         subject.value = "" ||
+//         text.value = ""
+//     ){
+//             Swal.fire({
+//                 title:'test',
+//                 text:'test',
+//                 icon:'success',
+//                 confirmButtonText:'continue'
+//             })
+//     }else{
+//         Swal.fire({
+//             title:'error test',
+//             text:'text test',
+//             icon:'Error',
+//             confirmButtonText:'continue'
+//         })
+//     }
 
 menu.addEventListener("click", () => {
     if(hidden){

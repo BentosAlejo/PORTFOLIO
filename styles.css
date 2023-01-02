@@ -26,9 +26,9 @@ html{
     padding: 15px 20px;
 }
 .header-container header .logo a{
-    font-family: 'Righteous';
-    font-size: 36px;
-    color: #1CB698;
+    font-family: 'Rock Salt';
+    font-size: 26px;
+    color: #FA03EF;
     text-decoration: none;
 }
 .header-container header ul{
@@ -44,10 +44,10 @@ html{
     text-decoration: none;
 }
 .header-container header nav ul li a:hover{
-    color: #1CB698;
+    color: #FA03EF;
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #FA03EF;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -77,7 +77,7 @@ html{
 }
 .home .banner-content img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #FA03EF;
     display: block;
     width: 80%;
     margin: auto;
@@ -85,8 +85,8 @@ html{
 }
 .home .banner-content h1{
     margin-top: 40px;
-    font-size: 42px;
-    font-family: 'Righteous';
+    font-size: 28px;
+    font-family: 'Rock Salt';
 }
 .home .banner-content h2{
     font-size: 15px;
@@ -106,7 +106,7 @@ html{
     transition: .3s;
 }
 .home .banner-content .social a:hover{
-    background-color: #1CB698;
+    background-color: #FA03EF;
 }
 /* about me */
 .aboutme{
@@ -130,7 +130,7 @@ html{
     margin-bottom: 20px;
 }
 .aboutme .section-content p span{
-    color: #1CB698;
+    color: #FA03EF;
     font-weight: bold;
 }
 .aboutme .row{
@@ -149,11 +149,11 @@ html{
 }
 .aboutme .row .col ul li strong{
     display: inline-block;
-    color:#1CB698;
+    color:#FA03EF;
     width: 130px;
 }
 .aboutme .row .col ul li span{
-    background-color: #1CB698;
+    background-color: #FA03EF;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -175,7 +175,7 @@ html{
     transition: .3s;
 }
 .aboutme .row .col .interest-container .interests:hover{
-    background-color: #1CB698;
+    background-color: #FA03EF;
 }
 .aboutme .row .col .interest-container .interests i{
     font-size: 30px;
@@ -200,7 +200,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     z-index: -1;
     transition: 1s;
 }
@@ -250,7 +250,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progress{
-    background-color: #1CB698;
+    background-color: #FA03EF;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +260,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -383,30 +383,30 @@ html{
     margin-bottom: 10px;
 }
 .cv .row .item .house{
-    color: #1CB698;
+    color: #FA03EF;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .cv .row .item .date{
     display: block;
-    color: #1CB698;
+    color: #FA03EF;
     margin-bottom: 10px;
 }
 .cv .row .item p{
     line-height: 24px;
 }
 .cv .row .left{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #FA03EF;
     margin-right: 20px;
 }
 .cv .row .right{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #FA03EF;
     margin-left: 20px;
 }
 .cv .row .item .conect1{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -418,14 +418,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .cv .row .item .conect2{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -437,7 +437,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     float: left;
     position: relative;
     bottom: 4px;
@@ -482,7 +482,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(#FA03EF, #FA03EF);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -500,6 +500,10 @@ html{
 }
 .portfolio .galery .proyect .overlay:hover h3{
     margin-bottom: 0px;
+}
+.portfolio .galery .proyect .overlay:hover a{
+    text-decoration: none;
+    color: #fff;
 }
 /* contact section */
 
@@ -558,7 +562,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     z-index: -1;
     transition: 1s;
 }
@@ -584,7 +588,7 @@ html{
     margin-bottom: 20px;
 }
 .contact .col .info ul li i{
-    color: #1CB698;
+    color: #FA03EF;
     display: inline-block;
     margin-right: 20px;
 }
@@ -616,7 +620,7 @@ footer .up{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #FA03EF;
     color: #fff;
     position: absolute;
     left: 50%;
